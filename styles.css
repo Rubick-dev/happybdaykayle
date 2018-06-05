@@ -1,0 +1,40 @@
+body {
+	background: no-repeat center url("background.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+.heading {
+	text-align: center;
+	font-size: 3rem;
+	font-family: 'Patua One', cursive;
+}
+
+.message {
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 1.3rem;
+}
+
+.message-right {
+	text-align: end;
+	margin-right:30%;
+	font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 450px) {
+	.heading {
+		font-size: 1.5rem;
+	}
+
+	.message{
+		font-size: 1rem;
+	}
+
+	.message-right{
+		font-size: 1.2;
+		margin-right: 5%;
+	}
+}
